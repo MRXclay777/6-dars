@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.yellow{
+    font-family: Inter;
+font-size: 64px;
+font-weight: 400;
+line-height: 77px;
+letter-spacing: 0%;
+text-align: center;
+color: #ffff00;
+}
+.h1{
+    font-family: "Inter";
+font-size: 64px;
+font-weight: 400;
+line-height: 77px;
+letter-spacing: 0%;
+text-align: center;
+color: #f0f8ff;
+margin-bottom: 38px;
+}
+.body{
+    background: #cd5d5d;
+    padding-top: 38px;
+}
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-list{
+    display: flex;
+    list-style: none;
+    gap: 92px;
+
+}
+.header-link{
+    color: #2000e8;
+font-family: Inter;
+font-size: 15px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration-line: underline;    
+}
+img{
+    display: block;
+}
+.hero{
+    padding-bottom: 120px;
+    padding-top: 23px;
+
+}
+.hero-item{
+    width:300px ;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 101px;
+}
+.hero-wrapper{
+    padding: 18px ;
+    background-color: #010101;
+}
+.hero-tittle{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 18px ;
+}
+.hero-text{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+}
+.hero-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
